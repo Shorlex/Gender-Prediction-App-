@@ -1,0 +1,43 @@
+*{
+    font-family:  'Carattere', cursive;
+    color: white;
+    font-size: 20px;
+}
+body{
+    background-color: black
+}
+.cont{
+    width: 500px;
+    height: 500px;
+    background-image: url(gender2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+h1, p{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
+@media screen and (max-width: 600px){
+    .cont{
+        width: 100%;
+        
+        background-position: top;
+    }
+    p{
+        font-size: 100%;
+    }
+    #gender, #displayGender{
+        width: 100%;
+    }
+    label{
+        color: black;
+    }
+}
+@media screen and (min-width: 404px){
+    label{
+        color: white;
+    }
+}
